@@ -1,5 +1,3 @@
-// import { WatchList, MovieHistory } from './MovieList.js';
-
 export default class MovieWatcher {
     constructor(firstName = ``, lastName = ``, watchList = [], movieHistory = []) {
         this.firstName = firstName;
@@ -40,7 +38,6 @@ export default class MovieWatcher {
     //     // list
     // }
 }
-
 
     // addMovie(movieName, targetList) {
     //     // let listName = this.lists.reduce(list => {
